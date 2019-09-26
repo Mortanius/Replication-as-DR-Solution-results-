@@ -1,0 +1,43 @@
+scenario,type,slave_count,slave_info,requests_per_sec,requests_info,blob
+1,Async,1,nearest,0.1,constant,500
+2,Async,1,farthest,2,random,500
+3,Async,2,,0.1,constant,500
+4,Async,1,nearest,2,random,500
+5,Async,1,farthest,0.1,constant,500
+6,Async,2,,2,random,500
+7,Async,1,nearest,0.1,constant,5000
+8,Async,1,farthest,2,random,5000
+9,Async,2,,0.1,constant,5000
+10,Async,1,nearest,2,random,5000
+11,Async,1,farthest,0.1,constant,5000
+12,Async,2,,2,random,5000
+13,Async,1,nearest,0.1,constant,50000
+14,Async,1,farthest,2,random,50000
+15,Async,2,,0.1,constant,50000
+16,Async,1,nearest,2,random,50000
+17,Async,1,farthest,0.1,constant,50000
+18,Async,2,,2,random,50000
+19,SemiSync,1,nearest,0.1,constant,500
+20,SemiSync,1,farthest,2,random,500
+21,SemiSync,2,1 ack,0.1,constant,500
+22,SemiSync,2,2 acks,0.1,constant,500
+23,SemiSync,1,nearest,2,random,500
+24,SemiSync,1,farthest,0.1,constant,500
+25,SemiSync,2,1 ack,2,random,500
+26,SemiSync,2,2 acks,2,random,500
+27,SemiSync,1,nearest,0.1,constant,5000
+28,SemiSync,1,farthest,2,random,5000
+29,SemiSync,2,1 ack,0.1,constant,5000
+30,SemiSync,2,2 acks,0.1,constant,5000
+31,SemiSync,1,nearest,2,random,5000
+32,SemiSync,1,farthest,0.1,constant,5000
+33,SemiSync,2,1 ack,2,random,5000
+34,SemiSync,2,2 acks,2,random,5000
+35,SemiSync,1,nearest,0.1,constant,50000
+36,SemiSync,1,farthest,2,random,50000
+37,SemiSync,2,1 ack,0.1,constant,50000
+38,SemiSync,2,2 acks,0.1,constant,50000
+39,SemiSync,1,nearest,2,random,50000
+40,SemiSync,1,farthest,0.1,constant,50000
+41,SemiSync,2,1 ack,2,random,50000
+42,SemiSync,2,2 acks,2,random,50000
